@@ -41,18 +41,7 @@ You can check the original Tensorflow implementation written by [Julieta Martine
     python main.py --exp example
     ```
 
-    You will get the training and testing loss curves like:
-
-    ![log](./img/log_gt.png)
-
-    <!-- ``` -->
-
-    <!-- ``` -->
-
-    <!-- You will get the training and testing loss curves like: -->
-
-    <!-- ![log](./img/log_ft.png) -->
-
+   
 ### Test
 
 1. You can download the [pretrained model](https://drive.google.com/file/d/1-HUPATPgQJWcitsPoRAECu7hssVqXofq/view?usp=sharing) on ground-truth 2d pose for a quick demo.
