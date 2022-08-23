@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 from einops import rearrange
-from model.module.trans import Transformer as Transformer_encoder
-from model.module.trans_hypothesis import Transformer as Transformer_hypothesis
+from model.mhformer.module.trans import Transformer as Transformer_encoder
+from model.mhformer.module.trans_hypothesis import Transformer as Transformer_hypothesis
 
 class Model(nn.Module):
     def __init__(self, args):
